@@ -64,7 +64,7 @@ function ExpenseForm({ addExpense }) {
       </select>
 
       <input
-  type="text"
+  type="date"
   name="date"
   placeholder="dd-mm-yyyy"
   value={form.date}
