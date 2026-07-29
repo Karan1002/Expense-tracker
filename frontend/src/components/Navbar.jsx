@@ -9,7 +9,7 @@ function Navbar() {
       </div>
 
       <div className="user">
-        <span>Karan Sakhat</span>
+        <span>Guest</span>
       </div>
     </nav>
   );
