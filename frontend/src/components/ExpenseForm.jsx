@@ -64,12 +64,12 @@ function ExpenseForm({ addExpense }) {
       </select>
 
       <input
-        type="date"
-        name="date"
-        value={form.date}
-        onChange={handleChange}
-        required
-      />
+  type="text"
+  name="date"
+  placeholder="dd-mm-yyyy"
+  value={form.date}
+  onChange={handleChange}
+/>
 
       <button>Add Expense</button>
 
