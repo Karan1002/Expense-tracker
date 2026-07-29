@@ -10,7 +10,7 @@ import EmptyState from "./components/EmptyState";
 import ExpenseForm from "./components/ExpenseForm";
 import ExpenseList from "./components/ExpenseList";
 
-const API = "http://localhost:5000/api/expenses";
+const API = "https://expense-tracker-hfby.onrender.com/api/expenses";
 
 function App() {
   const [expenses, setExpenses] = useState([]);
